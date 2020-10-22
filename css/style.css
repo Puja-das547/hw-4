@@ -1,0 +1,461 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    
+        width:100%;
+        background-image: url(https://i.pinimg.com/564x/e4/30/f2/e430f26008fcb18adf38add830518b44.jpg);
+       background-size: cover;
+        background-repeat: repeat-y;
+}
+
+.container{    
+}
+
+/****************** header part start ************************/
+
+header{
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    background: #F8BBD0;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border:  2px solid #fff;
+    border-radius: 58%;
+    margin-left: 207px;
+    padding: 8px;
+    float: left;
+}
+
+ul{
+    float: left;
+    list-style: none;
+    margin-left: 422px;
+    margin-top: 32px;
+}
+
+
+li{
+
+display: inline;
+
+padding: 30px;
+}
+
+a{
+
+text-decoration: none;
+
+color: #000;
+
+font-size: 20px;
+
+font-weight: bold;
+
+letter-spacing: 1px;
+}
+
+
+a:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+
+/****************** header part end ************************/
+
+
+
+
+
+/***************** hero part start ***************************/
+.hero{
+    width: 100%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAA1BMVEUAAACnej3aAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABODcYhAAEl463hAAAAAElFTkSuQmCC);
+    float: left;
+    margin-top: 95px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 84px;
+    float: left;
+}
+
+h1{
+    color: #fff;
+    font-size: 44px;
+    margin-left: 85px;
+    margin-top: 300px;
+}
+
+span{
+    color: #EC407A;
+}
+
+.image{
+    width: 314px;
+    height: 613px;
+    margin-top: -337px;
+    border: none;
+    float: left;
+    border-radius: 58%;
+    margin-left: 184px;
+}
+
+
+
+/***************** hero part end ***************************/
+
+
+
+
+/***************** About part start ***************************/
+.about{
+    width: 100%;
+    font-weight: bold;
+    color: #000;
+}
+
+.about-me{
+    color: #191717;
+    margin-top: 0;
+    font-size: 38px;
+    text-align: center;
+}
+
+
+
+
+
+.about-img{
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin-top: -40px;
+}
+
+.img2{
+    height:437px;
+    margin-left: 265px;
+    box-shadow: 1px 1px 3px #000;
+    margin-top: 80px;
+}
+
+
+.about-text{
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin-top: 22px;
+}
+
+h3{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 7px;
+}
+
+p{
+    width: 424px;
+    font-size: 20px;
+    color: #252323;
+    font-family: 'Sansita Swashed', cursive;
+    line-height: 1.5;
+    word-spacing: 13px;
+    text-transform: capitalize;
+    margin-top: 9px;
+}
+
+
+/***************** About part end ***************************/
+
+
+
+
+/***************** Service Setion start ****************/
+.services{
+    width:100%;
+    float: left;
+    margin-top: -250px;
+}
+
+.service-h1{
+    color: #000;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.service-row1{
+    width: 100%;
+    float: left;
+    margin-top: 22px;
+}
+
+.div1{
+    width: 25%;
+    height: 300px;
+    float: left;
+    background-color: #f48fb1c2;
+    margin-left: 126px;
+    box-shadow: 1px 1px 13px #E91E63;
+}
+
+.div2{
+    width: 25%;
+    height: 300px;
+    float: left;
+    background-color: #f48fb1c2;
+    margin-left: 48px;
+    box-shadow: 1px 1px 13px #E91E63;
+}
+
+.div3{
+    width: 25%;
+    height: 300px;
+    float: left;
+    background-color: #f48fb1c2;
+    margin-left: 48px;
+    box-shadow: 1px 1px 13px #E91E63;
+}
+
+.service-row2{
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.div4{
+    width: 25%;
+    height: 300px;
+    float: left;
+    background-color: #f48fb1c2;
+    margin-left: 126px;
+    box-shadow: 1px 1px 13px #E91E63;
+    margin-top: 52px;
+}
+
+.div5{
+    width: 25%;
+    height: 300px;
+    float: left;
+    background-color: #f48fb1c2;
+    margin-left:48px;
+    box-shadow: 1px 1px 13px #E91E63;
+    margin-top: 52px;
+}
+
+.div6{
+    width: 25%;
+    height: 300px;
+    float: left;
+    background-color: #f48fb1c2;
+    margin-left:48px;
+    box-shadow: 1px 1px 13px #E91E63;
+    margin-top: 52px;
+}
+
+.hover:hover{
+    color: #fff;
+    background: #c73d6d;
+    transition: 0.5s;
+}
+
+.service-p:hover{
+    color:#fff;
+}
+
+.service-p-two:hover{
+    color:#fff;
+}
+
+.wordpress{
+    font-size: 81px;
+    margin-left: 127px;
+    margin-top: 26px;
+}
+
+
+
+.service-h3{}
+
+.service-p{
+    word-spacing: 6px;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    margin-left: 22px;
+    line-height: 22px;
+}
+
+.service-p-two{
+    word-spacing: 6px;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    margin-left: 22px;
+    line-height: 22px;
+}
+
+
+
+/***************** Service Setion end ****************/
+
+
+.img-cont{}
+
+/****** Contact Css Start******/
+.contact{
+    width:100%;
+    height: 811px;
+    padding-top: 25px;
+    margin-top: 1054px;
+}
+
+.contact-number{
+    width: 25%;
+    height: 500px;
+    float: left;
+    margin-left: 5px;
+}
+
+.h1contact{
+    text-align: center;
+    padding-top: 37px;
+    color: #000;
+}
+.h3contact{
+    color: #171515;
+    font-size: 29px;
+    margin-top: 209px;
+}
+
+.phone{
+    color: #383232;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.social-contact{
+    width: 25%;
+    height: 500px;
+    float: left;
+    margin-left: -243px;
+    margin-top: 162px;
+}
+
+.contact-icon{
+    margin-left: -219px;
+    margin: 20px;
+}
+
+.facebook{
+    color: #3b1fd8;
+    font-size: 30px;
+}
+
+.twitter{
+    color: #03A9F4;
+    font-size: 30px;
+}
+
+
+.insta{
+    color: #e21aa5;
+    font-size: 30px;
+}
+
+.a-contact{
+    padding-top: 5p;
+    display: block;
+}
+
+
+.massage{
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin-left: 238px;
+    margin-top: 83px;
+
+}
+
+.msg-h2{
+    color: #2f2b2b;
+    font-size: 40px;
+    margin-left: 84px;
+    float: left;
+}
+
+
+input{
+    padding: 10px;
+    width: 503px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    margin: 3px;
+    border-radius: 5px;
+
+}
+
+.btn{
+    width: 265px;
+    margin-left: 134px;
+    color: #fff;
+    background: brown;
+}
+
+.textarea{
+    width: 503px;
+    margin-left: 3px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 20px;
+    padding: 10px;
+}
+/****** Contact Css End ******/
+
+
+/* Footer Css Start */
+.footer{
+    width: 100%;
+    float: left;
+}
+
+
+.footer-div{
+    width: 100%;
+    background-color: #5a2259;
+    height: 82px;
+
+}
+
+.footer-h4{
+    color: #fff;
+    padding: 32px;
+    display: inline-block;
+    float: left;
+}
+
+.footer-h3{
+    color: #fff;
+    display: inline-block;
+    margin-left: 459px;
+    margin-top: 30px;
+}
+}
+
+/* Footer Css End */
